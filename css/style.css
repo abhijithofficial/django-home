@@ -1,0 +1,102 @@
+/* ============  CSS RESET ============ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============  HEADER ============== */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  color: paleturquoise;
+}
+
+nav ul {
+  display: flex;
+  min-height: 10vh;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: teal;
+  list-style-type: none;
+}
+
+.banner {
+  min-height: 60vh;
+  background-image: url("/images/chart-close-up-data-desk-590022.jpg");
+  background-size: cover;
+  background-position: center;
+  color: maroon;
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.banner button {
+  text-align: center;
+  background-color: rgb(5, 64, 66);
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  border: none;
+  color: white;
+}
+.banner button:hover {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  transition: 2s;
+  left: 0;
+}
+
+/* ==============  MAIN ============== */
+
+.creator {
+  display: flex;
+  color: aliceblue;
+  height: 30vh;
+  flex-wrap: wrap;
+}
+.review .checked {
+  color: gold;
+}
+.review .fa {
+  font-size: 1.5rem;
+}
+.review {
+  flex: 1 1 20rem;
+  padding: 1rem;
+  color: black;
+  box-sizing: border-box;
+}
+.review .chart-image {
+  width: 100%;
+  height: 150px;
+}
+
+.user-image {
+  width: 50px;
+  border-radius: 50%;
+}
+.review .user-data {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-weight: bold;
+  color: crimson;
+}
+.user-data img {
+  margin-right: 5px;
+}
+.review h4 {
+  margin: 1rem 0rem;
+}
